@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/main.dart';
-import 'package:flutter_application/widgets/my_text_button.dart';
+import 'package:flutter_application/widgets/textButton.dart';
 
 class EditTaskPage extends StatefulWidget {
   final Map<String, dynamic> workout;

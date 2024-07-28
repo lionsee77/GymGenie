@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/main.dart';
-import 'package:flutter_application/widgets/my_text_button.dart';
+import 'package:flutter_application/widgets/textButton.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SettingPage extends StatefulWidget {
@@ -80,21 +80,6 @@ class _SettingPageState extends State<SettingPage> {
     await updateHeightInDatabase(_height); // Update the database
   }
 
- /* bool isValidHeight(int height) {
-    if (90 < height && height < 270) {
-      return true;
-    }
-    return false;
-  }
-
-  bool isValidWeight(int weight){
-    if (10 < weight && weight < 300) {
-      return true;
-    }
-    return false;
-  }
-
-*/
   @override
   void dispose() {
     _weightController.dispose();
@@ -104,16 +89,16 @@ class _SettingPageState extends State<SettingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(225, 217, 209, 250),
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor:const Color.fromARGB(225, 217, 209, 250),
+        backgroundColor: Colors.white,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
           },
           icon: SvgPicture.asset(
-            'assets/images/back_arrow.svg',
-            color: Colors.white,
+            'assets/images/general/back_arrow.svg',
+            color: Colors.black,
             width: 22,
           ),
         ),
@@ -167,7 +152,7 @@ class _SettingPageState extends State<SettingPage> {
                     MaterialPageRoute(builder: (context) => MyApp()),
                   );
                 },
-                bgColor: Colors.red.withOpacity(0.5), // Transparent background
+                bgColor: Colors.red, 
                 textColor: Colors.white,
               ),
             ],

@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application/authentication_stuff/registerPage.dart';
 import 'package:flutter_application/format_stuff/constants.dart';
-import 'package:flutter_application/lobby.dart';
+import 'package:flutter_application/screens/lobby.dart';
 import 'package:flutter_application/main.dart';
 import 'package:flutter_application/widgets/widget.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -28,11 +28,6 @@ class _SignInPageState extends State<SignInPage> {
         .eq('id', userId)
         .single();
       return response['name'].toString();
-    //   .from('profiles')
-    //   .select('first_name')
-    //   .eq('id', userId)
-    //   .single();
-    // return response['first_name'].toString();
   }
 
   @override
@@ -47,7 +42,7 @@ class _SignInPageState extends State<SignInPage> {
             Navigator.pop(context);
           },
           icon: SvgPicture.asset(
-            'assets/images/back_arrow.svg',
+            'assets/images/general/back_arrow.svg',
             color: Colors.white,
             width: 22,
           ),
