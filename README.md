@@ -3,10 +3,10 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-  - [Workout Tracker](#Workout Tracker)
-  - [Nutrition Log](#Nutrition Log)
-  - [Stepsometer](#Stepometer)
-  - [Interactive Anatomy](#Interactive Anatomy)
+  - [Workout Tracker](#workout-tracker)
+  - [Nutrition Log](#nutrition-log)
+  - [Stepometer](#stepometer)
+  - [Interactive Anatomy](#interactive-anatomy)
 - [Tech Stack](#tech-stack)
 
 ## Overview 🏋️
