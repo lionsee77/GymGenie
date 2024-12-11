@@ -23,6 +23,7 @@ The Nutrition Log helps users effortlessly track their meals throughout the day,
 
 ### **Stepometer** 👟
 ![Image 1](images/Stepometer.png)
+<br>
 The Steps Tracker leverages on the HealthKit API to record the number of steps taken each day, providing real-time data and insights into historical trends. By seamlessly integrating into users’ routines, this feature enables them to align their workouts and nutritional intake with the calories burned throughout the day, helping to optimise their fitness goals and achieve long-term health improvements.
 
 ### **Interactive Anatomy** 🫁
