@@ -9,7 +9,6 @@
   - [Interactive Anatomy](#interactive-anatomy)
 - [Tech Stack](#tech-stack)
 
-
 ## Overview 🏋️
 
 GymGenie is an all-in-one fitness application that empowers health enthusiasts and gym-goers alike to achieve their fitness goals through comprehensive tracking, personalised recommendations and educational resources
