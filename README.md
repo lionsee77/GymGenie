@@ -22,7 +22,7 @@ A user-friendly platform designed to help users seamlessly log their workouts an
 The Nutrition Log helps users effortlessly track their meals throughout the day, providing a clear and informative overview of their caloric intake. A detailed macro-nutrient breakdown is displayed graphically, helping users stay mindful of their dietary balance. Whether aiming for specific nutritional goals or simply staying on top of their diet, this feature makes it easy to monitor and adjust food intake.
 
 ### **Stepometer** 👟
-![Image 1](images/Stepometer.jpg)
+![Image 1](images/Stepometer.png)
 The Steps Tracker leverages on the HealthKit API to record the number of steps taken each day, providing real-time data and insights into historical trends. By seamlessly integrating into users’ routines, this feature enables them to align their workouts and nutritional intake with the calories burned throughout the day, helping to optimise their fitness goals and achieve long-term health improvements.
 
 ### **Interactive Anatomy** 🫁
